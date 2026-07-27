@@ -26,6 +26,10 @@ Our work spans embedded software, real-time operating systems, digital signal pr
 
 ### NetKit — Neural Network Inference Runtime for MCU and Embedded Linux
 
+An embedded-first C++26/C23 neural inference runtime for microcontrollers, embedded Linux, and host CPU targets, supporting float32 and INT8 models with optimized backends (CMSIS-NN, ESP-NN, NMSIS-NN, XNNPACK) and peer benchmarks against TensorFlow Lite for Microcontrollers, microTVM, TensorFlow Lite, and ONNX Runtime.
+
+Repository: [NetKit-Labs/netkit](https://github.com/NetKit-Labs/netkit)
+
 Highlights include:
 
 * Portable C++ implementation
@@ -38,6 +42,10 @@ Highlights include:
 ---
 
 ### MemKit — Embedded Container Library for MCU and MPU Environments
+
+An embedded systems container library in C++ with native C and C++ APIs over shared implementations, designed for predictable memory usage on bare-metal MCU firmware and embedded Linux MPU services through static, arena, and optional heap-backed storage.
+
+Repository: [NetKit-Labs/memkit](https://github.com/NetKit-Labs/memkit)
 
 Features include:
 
