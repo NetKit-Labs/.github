@@ -2,9 +2,9 @@
 
 **Open-source Embedded Software • Edge AI • FPGA AI Acceleration**
 
-NetKit Labs is an independent research and development initiative focused on building high-performance, open-source software and hardware for resource-constrained intelligent systems.
+NetKit Labs is an independent research and development initiative focused on embedded software, Edge AI, digital signal processing, and FPGA acceleration for resource-constrained intelligent systems.
 
-Our work spans embedded software, real-time operating systems, digital signal processing, TinyML, embedded Linux, and FPGA-based neural network acceleration. The goal is to create practical engineering tools that enable efficient AI deployment from microcontrollers to embedded Linux platforms.
+Our work spans bare-metal and RTOS firmware on ARM Cortex-M, embedded Linux, real-time DSP, TinyML inference runtimes, and FPGA-based neural network acceleration — practical open-source tools from microcontrollers to embedded Linux and programmable logic.
 
 ---
 
@@ -26,7 +26,7 @@ Our work spans embedded software, real-time operating systems, digital signal pr
 
 ### NetKit — Neural Network Inference Runtime for MCU and Embedded Linux
 
-An embedded-first C++26/C23 neural inference runtime for microcontrollers, embedded Linux, and host CPU targets, supporting float32 and INT8 models with optimized backends (CMSIS-NN, ESP-NN, NMSIS-NN, XNNPACK) and peer benchmarks against TensorFlow Lite for Microcontrollers, microTVM, TensorFlow Lite, and ONNX Runtime.
+Built and open-sourced NetKit, a custom C++ inference runtime for MCU and embedded Linux targets, with optimized INT8 inference kernels achieving up to **10×** the performance of TensorFlow Lite for Microcontrollers (TFLM) reference implementations on selected operators. Float32 and INT8 paths are peer-benched across Arm MCU/MPU, Espressif, RISC-V, and host CPU backends (CMSIS-NN, ESP-NN, NMSIS-NN, XNNPACK).
 
 Repository: [NetKit-Labs/netkit](https://github.com/NetKit-Labs/netkit)
 
@@ -43,7 +43,7 @@ Highlights include:
 
 ### MemKit — Embedded Container Library for MCU and MPU Environments
 
-An embedded systems container library in C++ with native C and C++ APIs over shared implementations, designed for predictable memory usage on bare-metal MCU firmware and embedded Linux MPU services through static, arena, and optional heap-backed storage.
+Open-sourced MemKit, an embedded systems container library written in C++ with native C and C++ APIs over shared implementations, designed specifically for resource-constrained MCU and MPU environments with predictable static, arena, and optional heap-backed storage.
 
 Repository: [NetKit-Labs/memkit](https://github.com/NetKit-Labs/memkit)
 
@@ -113,6 +113,6 @@ The long-term vision is to provide a complete software-to-silicon ecosystem for 
 
 **James Lavrenz**
 
-Embedded Software Engineer | Embedded AI | FPGA AI Acceleration
+Principal Embedded Software Engineer (Edge AI/TinyML) | Embedded AI | FPGA AI Acceleration
 
 LinkedIn: https://www.linkedin.com/in/jameslavrenz
