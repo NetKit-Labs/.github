@@ -53,17 +53,20 @@ Features include:
 
 ---
 
-### FPGA Neural Network Accelerator
+### NpuKit — FPGA Neural Network Accelerator *(recently completed)*
 
-An FPGA-based INT8 neural network accelerator implemented in SystemVerilog.
+Designed and implemented an FPGA-based INT8 neural network accelerator in SystemVerilog featuring a streaming output-stationary systolic-array architecture for matrix multiplication, enabling quantized Vision Transformer inference on an AMD-Xilinx Zynq-7000 SoC.
 
-Current work includes:
+Repository: [NetKit-Labs/npukit](https://github.com/NetKit-Labs/npukit)
+
+Highlights include:
 
 * Output-stationary systolic-array architecture
 * Streaming matrix multiplication engine
-* Quantized neural network acceleration
+* Quantized neural network acceleration (INT8)
 * AMD-Xilinx Zynq-7000 implementation
 * Hardware/software co-design for embedded AI systems
+* Host-scheduled tiny-ViT on MNIST with MCU-class DS-CNN peer benchmarks
 
 ---
 
