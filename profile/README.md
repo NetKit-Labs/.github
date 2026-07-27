@@ -24,9 +24,7 @@ Our work spans embedded software, real-time operating systems, digital signal pr
 
 ## Featured Projects
 
-### NetKit
-
-A lightweight, high-performance neural network inference runtime for microcontrollers and embedded Linux systems.
+### NetKit — Neural Network Inference Runtime for MCU and Embedded Linux
 
 Highlights include:
 
@@ -39,9 +37,7 @@ Highlights include:
 
 ---
 
-### MemKit
-
-An embedded systems container library designed specifically for MCU and MPU environments.
+### MemKit — Embedded Container Library for MCU and MPU Environments
 
 Features include:
 
