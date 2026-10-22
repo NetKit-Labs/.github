@@ -126,6 +126,6 @@ NetKit Labs develops practical open-source infrastructure for embedded systems a
 
 **James Lavrenz**
 
-Principal Embedded Software Engineer (Edge AI/TinyML) | Embedded AI | FPGA AI Acceleration
+Senior Embedded Software Engineer | C/C++ | Embedded Linux | RTOS | Arm Cortex-M/A | Edge AI
 
 LinkedIn: https://www.linkedin.com/in/jameslavrenz
