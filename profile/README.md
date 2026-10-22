@@ -2,6 +2,8 @@
 
 **Established NetKit Labs to develop embedded C/C++ software for MCU and embedded Linux platforms.**
 
+[Website](https://netkit-labs.github.io/) · [Repositories](https://github.com/orgs/NetKit-Labs/repositories) · [Project guide](#featured-projects) · [Explore by topic](#explore-by-topic)
+
 Our work spans bare-metal and Zephyr RTOS firmware on ARM Cortex-M/A, embedded Linux, audio DSP, TinyML inference runtimes, and FPGA-based neural network acceleration. The projects connect embedded software infrastructure with keyword spotting, speech commands, and efficient inference on microcontrollers, MPU hosts, and programmable logic.
 
 ---
@@ -17,6 +19,15 @@ Our work spans bare-metal and Zephyr RTOS firmware on ARM Cortex-M/A, embedded L
 * Neural Network Inference Runtimes
 * FPGA AI Accelerators
 * Hardware/Software Co-Design
+
+## Explore by Topic
+
+| Area | Repository topics |
+| --- | --- |
+| Embedded C/C++ | [C++](https://github.com/search?q=org%3ANetKit-Labs+topic%3Acpp&type=repositories) · [C23](https://github.com/search?q=org%3ANetKit-Labs+topic%3Ac23&type=repositories) · [Embedded systems](https://github.com/search?q=org%3ANetKit-Labs+topic%3Aembedded-systems&type=repositories) · [Firmware](https://github.com/search?q=org%3ANetKit-Labs+topic%3Afirmware&type=repositories) |
+| Platforms and RTOS | [Embedded Linux](https://github.com/search?q=org%3ANetKit-Labs+topic%3Aembedded-linux&type=repositories) · [Cortex-M](https://github.com/search?q=org%3ANetKit-Labs+topic%3Acortex-m&type=repositories) · [RTOS](https://github.com/search?q=org%3ANetKit-Labs+topic%3Artos&type=repositories) · [Zephyr](https://github.com/search?q=org%3ANetKit-Labs+topic%3Azephyr&type=repositories) |
+| Audio and Edge AI | [Keyword spotting](https://github.com/search?q=org%3ANetKit-Labs+topic%3Akeyword-spotting&type=repositories) · [Audio processing](https://github.com/search?q=org%3ANetKit-Labs+topic%3Aaudio-processing&type=repositories) · [TinyML](https://github.com/search?q=org%3ANetKit-Labs+topic%3Atinyml&type=repositories) · [Edge AI](https://github.com/search?q=org%3ANetKit-Labs+topic%3Aedge-ai&type=repositories) |
+| Memory and FPGA | [Memory management](https://github.com/search?q=org%3ANetKit-Labs+topic%3Amemory-management&type=repositories) · [Lock-free utilities](https://github.com/search?q=org%3ANetKit-Labs+topic%3Alock-free&type=repositories) · [FPGA](https://github.com/search?q=org%3ANetKit-Labs+topic%3Afpga&type=repositories) · [SystemVerilog](https://github.com/search?q=org%3ANetKit-Labs+topic%3Asystemverilog&type=repositories) |
 
 ---
 
@@ -126,4 +137,6 @@ NetKit Labs develops practical open-source infrastructure for embedded systems a
 
 Senior Embedded Software Engineer | C/C++ | Embedded Linux | RTOS | Arm Cortex-M/A | Edge AI
 
-LinkedIn: https://www.linkedin.com/in/jameslavrenz
+[Website](https://netkit-labs.github.io/) · [GitHub](https://github.com/jameslavrenz) · [LinkedIn](https://www.linkedin.com/in/jameslavrenz)
+
+For project questions and bug reports, use the issue tracker in the relevant repository: [KWSKit](https://github.com/NetKit-Labs/kwskit/issues), [NetKit](https://github.com/NetKit-Labs/netkit/issues), [MemKit](https://github.com/NetKit-Labs/memkit/issues), or [NPUKit](https://github.com/NetKit-Labs/npukit/issues).
