@@ -4,14 +4,14 @@
 
 [Website](https://netkit-labs.github.io/) · [Repositories](https://github.com/orgs/NetKit-Labs/repositories) · [Project guide](#featured-projects) · [Explore by topic](#explore-by-topic)
 
-Our work spans bare-metal and Zephyr RTOS firmware on ARM Cortex-M/A, embedded Linux, audio DSP, TinyML inference runtimes, and FPGA-based neural network acceleration. The projects connect embedded software infrastructure with keyword spotting, speech commands, and efficient inference on microcontrollers, MPU hosts, and programmable logic.
+Our work spans bare-metal and Zephyr RTOS firmware on Arm Cortex-M/A, embedded Linux, audio DSP, TinyML inference runtimes, and FPGA-based neural network acceleration. The projects connect embedded software infrastructure with keyword spotting, speech commands, and efficient inference on microcontrollers, MPU hosts, and programmable logic.
 
 ---
 
 ## Focus Areas
 
 * Embedded Software Development (C/C++)
-* ARM Cortex-M/A Firmware
+* Arm Cortex-M/A Firmware
 * Bare-Metal & Zephyr RTOS Systems
 * Embedded Linux
 * Audio DSP & Keyword Spotting
@@ -25,7 +25,7 @@ Our work spans bare-metal and Zephyr RTOS firmware on ARM Cortex-M/A, embedded L
 | Area | Repository topics |
 | --- | --- |
 | Embedded C/C++ | [C++](https://github.com/search?q=org%3ANetKit-Labs+topic%3Acpp&type=repositories) · [C23](https://github.com/search?q=org%3ANetKit-Labs+topic%3Ac23&type=repositories) · [Embedded systems](https://github.com/search?q=org%3ANetKit-Labs+topic%3Aembedded-systems&type=repositories) |
-| Arm firmware and bare metal | [Cortex-M](https://github.com/search?q=org%3ANetKit-Labs+topic%3Acortex-m&type=repositories) · [Arm Cortex-A](https://github.com/search?q=org%3ANetKit-Labs+topic%3Acortex-a&type=repositories) · [Firmware](https://github.com/search?q=org%3ANetKit-Labs+topic%3Afirmware&type=repositories) · [Bare metal](https://github.com/search?q=org%3ANetKit-Labs+topic%3Abare-metal&type=repositories) |
+| Arm firmware and bare metal | [Arm Cortex-M](https://github.com/search?q=org%3ANetKit-Labs+topic%3Acortex-m&type=repositories) · [Arm Cortex-A](https://github.com/search?q=org%3ANetKit-Labs+topic%3Acortex-a&type=repositories) · [Firmware](https://github.com/search?q=org%3ANetKit-Labs+topic%3Afirmware&type=repositories) · [Bare metal](https://github.com/search?q=org%3ANetKit-Labs+topic%3Abare-metal&type=repositories) |
 | RTOS and real-time systems | [Zephyr](https://github.com/search?q=org%3ANetKit-Labs+topic%3Azephyr&type=repositories) · [RTOS](https://github.com/search?q=org%3ANetKit-Labs+topic%3Artos&type=repositories) · [Real-time](https://github.com/search?q=org%3ANetKit-Labs+topic%3Areal-time&type=repositories) |
 | Embedded Linux and MPUs | [Embedded Linux](https://github.com/search?q=org%3ANetKit-Labs+topic%3Aembedded-linux&type=repositories) · [MPUs](https://github.com/search?q=org%3ANetKit-Labs+topic%3Ampu&type=repositories) |
 | Audio and speech | [Audio processing](https://github.com/search?q=org%3ANetKit-Labs+topic%3Aaudio-processing&type=repositories) · [Keyword spotting](https://github.com/search?q=org%3ANetKit-Labs+topic%3Akeyword-spotting&type=repositories) · [Speech commands](https://github.com/search?q=org%3ANetKit-Labs+topic%3Aspeech-commands&type=repositories) |
@@ -39,7 +39,7 @@ Our work spans bare-metal and Zephyr RTOS firmware on ARM Cortex-M/A, embedded L
 
 ### KWSKit — Real-time Keyword Spotting with Zephyr
 
-Built a C++20 keyword-spotting application for the Arduino Nano 33 BLE Sense (nRF52840 / ARM Cortex-M4F), using Zephyr RTOS, CMSIS-DSP features, and int8 TensorFlow Lite Micro inference. Continuous 16 kHz microphone audio drives voice-triggered LED control.
+Built a C++20 keyword-spotting application for the Arduino Nano 33 BLE Sense (nRF52840 / Arm Cortex-M4F), using Zephyr RTOS, CMSIS-DSP features, and int8 TensorFlow Lite Micro inference. Continuous 16 kHz microphone audio drives voice-triggered LED control.
 
 Repository: [NetKit-Labs/kwskit](https://github.com/NetKit-Labs/kwskit)
 
@@ -112,7 +112,8 @@ Highlights include:
 
 **Platforms**
 
-* ARM Cortex-M
+* Arm Cortex-M
+* Arm Cortex-A
 * Zephyr RTOS
 * Embedded Linux
 * AMD-Xilinx Zynq SoCs
