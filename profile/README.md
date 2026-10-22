@@ -11,7 +11,7 @@ Our work spans bare-metal and Zephyr RTOS firmware on ARM Cortex-M/A, embedded L
 ## Focus Areas
 
 * Embedded Software Development (C/C++)
-* ARM Cortex-M Firmware
+* ARM Cortex-M/A Firmware
 * Bare-Metal & Zephyr RTOS Systems
 * Embedded Linux
 * Audio DSP & Keyword Spotting
