@@ -24,6 +24,22 @@ Our work spans bare-metal and RTOS firmware on ARM Cortex-M, embedded Linux, rea
 
 ## Featured Projects
 
+### KWSKit — Real-time Keyword Spotting with Zephyr
+
+Built a C++20 keyword-spotting application for the Arduino Nano 33 BLE Sense (nRF52840 / ARM Cortex-M4F), using Zephyr RTOS, CMSIS-DSP features, and int8 TensorFlow Lite Micro inference. Continuous 16 kHz microphone audio drives voice-triggered LED control.
+
+Repository: [NetKit-Labs/kwskit](https://github.com/NetKit-Labs/kwskit)
+
+Highlights include:
+
+* Separate thread contexts for PDM capture, audio processing, keyword control, and telemetry
+* Fixed application buffers, thread stacks, and a 64 KiB inference arena
+* Nonblocking score delivery, bounded audio batches, and stale-result rejection
+* Unit and regression tests, firmware CI, and recorded hardware validation
+* Spoken-keyword operation and physical LED toggling verified on the Nano
+
+---
+
 ### NetKit — Neural Network Inference Runtime for MCU and Embedded Linux
 
 Built and open-sourced NetKit, a custom C++ inference runtime for MCU and embedded Linux targets, with optimized INT8 inference kernels achieving up to **10×** the performance of TensorFlow Lite for Microcontrollers (TFLM) reference implementations on selected operators. Float32 and INT8 paths are peer-benched across Arm MCU/MPU, Espressif, RISC-V, and host CPU backends (CMSIS-NN, ESP-NN, NMSIS-NN, XNNPACK).
@@ -57,7 +73,7 @@ Features include:
 
 ---
 
-### NpuKit — FPGA Neural Network Accelerator
+### NPUKit — FPGA Neural Network Accelerator
 
 Designed and implemented an FPGA-based INT8 neural network accelerator in SystemVerilog featuring a streaming output-stationary systolic-array architecture for matrix multiplication, enabling quantized Vision Transformer inference on an AMD-Xilinx Zynq-7000 SoC.
 
@@ -71,22 +87,6 @@ Highlights include:
 * AMD-Xilinx Zynq-7000 implementation
 * Hardware/software co-design for embedded AI systems
 * Host-scheduled tiny-ViT on MNIST with MCU-class DS-CNN peer benchmarks
-
----
-
-### KWSKit — Real-time Keyword Spotting with Zephyr
-
-Built a C++20 keyword-spotting application for the Arduino Nano 33 BLE Sense (nRF52840 / ARM Cortex-M4F), using Zephyr RTOS, CMSIS-DSP features, and int8 TensorFlow Lite Micro inference. Continuous 16 kHz microphone audio drives voice-triggered LED control.
-
-Repository: [NetKit-Labs/kwskit](https://github.com/NetKit-Labs/kwskit)
-
-Highlights include:
-
-* Separate thread contexts for PDM capture, audio processing, keyword control, and telemetry
-* Fixed application buffers, thread stacks, and a 64 KiB inference arena
-* Nonblocking score delivery, bounded audio batches, and stale-result rejection
-* Unit and regression tests, firmware CI, and recorded hardware validation
-* Spoken-keyword operation and physical LED toggling verified on the Nano
 
 ---
 
