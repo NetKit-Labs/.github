@@ -125,12 +125,6 @@ Highlights include:
 
 ---
 
-## Mission
-
-NetKit Labs develops practical open-source infrastructure for embedded systems and efficient AI inference. The focus is on reusable C/C++ libraries, Zephyr firmware, audio processing, and FPGA acceleration, supported by tests, benchmarks, and documented hardware results.
-
----
-
 ## Connect
 
 **James Lavrenz**
