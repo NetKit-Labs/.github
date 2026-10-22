@@ -124,8 +124,7 @@ Highlights include:
 * Embedded Systems
 * Audio DSP
 * Keyword Spotting & Speech Commands
-* TinyML
-* Edge AI
+* Edge AI / TinyML
 * Neural Network Acceleration
 
 ---
