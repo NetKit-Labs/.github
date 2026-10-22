@@ -1,8 +1,6 @@
 # NetKit Labs
 
-**Open-source Embedded Software • Edge AI • FPGA AI Acceleration**
-
-NetKit Labs is an independent research and development initiative focused on embedded software, Edge AI, digital signal processing, and FPGA acceleration for resource-constrained intelligent systems.
+**Established NetKit Labs to develop embedded C/C++ software for MCU and embedded Linux platforms.**
 
 Our work spans bare-metal and Zephyr RTOS firmware on ARM Cortex-M, embedded Linux, audio DSP, TinyML inference runtimes, and FPGA-based neural network acceleration. The projects connect embedded software infrastructure with keyword spotting, speech commands, and efficient inference on microcontrollers, MPU hosts, and programmable logic.
 
