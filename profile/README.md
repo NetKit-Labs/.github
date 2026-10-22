@@ -4,7 +4,7 @@
 
 NetKit Labs is an independent research and development initiative focused on embedded software, Edge AI, digital signal processing, and FPGA acceleration for resource-constrained intelligent systems.
 
-Our work spans bare-metal and RTOS firmware on ARM Cortex-M, embedded Linux, real-time DSP, TinyML inference runtimes, and FPGA-based neural network acceleration — practical open-source tools from microcontrollers to embedded Linux and programmable logic.
+Our work spans bare-metal and Zephyr RTOS firmware on ARM Cortex-M, embedded Linux, audio DSP, TinyML inference runtimes, and FPGA-based neural network acceleration. The projects connect embedded software infrastructure with keyword spotting, speech commands, and efficient inference on microcontrollers, MPU hosts, and programmable logic.
 
 ---
 
@@ -12,9 +12,9 @@ Our work spans bare-metal and RTOS firmware on ARM Cortex-M, embedded Linux, rea
 
 * Embedded Software Development (C/C++)
 * ARM Cortex-M Firmware
-* Bare-Metal & RTOS Systems
+* Bare-Metal & Zephyr RTOS Systems
 * Embedded Linux
-* Digital Signal Processing (DSP)
+* Audio DSP & Keyword Spotting
 * Edge AI / TinyML
 * Neural Network Inference Runtimes
 * FPGA AI Accelerators
@@ -42,51 +42,49 @@ Highlights include:
 
 ### NetKit — Neural Network Inference Runtime for MCU and Embedded Linux
 
-Built and open-sourced NetKit, a custom C++ inference runtime for MCU and embedded Linux targets, with optimized INT8 inference kernels achieving up to **10×** the performance of TensorFlow Lite for Microcontrollers (TFLM) reference implementations on selected operators. Float32 and INT8 paths are peer-benched across Arm MCU/MPU, Espressif, RISC-V, and host CPU backends (CMSIS-NN, ESP-NN, NMSIS-NN, XNNPACK).
+NetKit is a C++26 inference runtime with C++ and C23 APIs for MCU and embedded Linux targets. Float32 and INT8 paths support resource-constrained deployment, with optimized backends including CMSIS-NN, ESP-NN, NMSIS-NN, and XNNPACK.
 
 Repository: [NetKit-Labs/netkit](https://github.com/NetKit-Labs/netkit)
 
 Highlights include:
 
-* Portable C++ implementation
-* INT8 quantized inference
-* Deterministic memory management
-* Resource-constrained deployment
-* Optimized inference kernels
-* Up to **10× faster** than TensorFlow Lite for Microcontrollers (TFLM) reference kernels on selected operators
+* C++ and C APIs over a shared runtime
+* Float32 and INT8 quantized inference
+* Explicit memory planning for embedded deployment
+* Optimized kernels for Arm, Espressif, RISC-V, and host CPUs
+* Peer benchmarks against established inference runtimes
 
 ---
 
 ### MemKit — Embedded Container Library for MCU and MPU Environments
 
-Open-sourced MemKit, an embedded systems container library written in C++ with native C and C++ APIs over shared implementations, designed specifically for resource-constrained MCU and MPU environments with predictable static, arena, and optional heap-backed storage.
+MemKit is an embedded C++26 container library with C++ and C23 APIs over shared implementations, designed for bare-metal MCUs, RTOS firmware, and embedded Linux MPUs.
 
 Repository: [NetKit-Labs/memkit](https://github.com/NetKit-Labs/memkit)
 
 Features include:
 
-* STL-inspired interfaces
-* Predictable memory usage
-* Native C and C++ APIs
-* No dynamic allocation requirements during runtime
-* Designed for real-time embedded applications
+* Ring buffers, maps, pools, and other embedded containers
+* C++ lock-free queues and double buffering for task/ISR handoff
+* Static and arena storage for MCU firmware
+* Heap and virtual-memory arena backing for MPU hosts
+* C and C++ APIs over shared container cores
 
 ---
 
 ### NPUKit — FPGA Neural Network Accelerator
 
-Designed and implemented an FPGA-based INT8 neural network accelerator in SystemVerilog featuring a streaming output-stationary systolic-array architecture for matrix multiplication, enabling quantized Vision Transformer inference on an AMD-Xilinx Zynq-7000 SoC.
+NPUKit is a SystemVerilog INT8 neural network accelerator for the PYNQ-Z2 (AMD-Xilinx Zynq-7020). An 8×8 output-stationary systolic array performs matrix multiplication, with AXI control, DMA tile transfers, and transformer operations split between FPGA fabric and Python host software. Speech-command experiments explore embedded workloads on top of the accelerator.
 
 Repository: [NetKit-Labs/npukit](https://github.com/NetKit-Labs/npukit)
 
 Highlights include:
 
-* Output-stationary systolic-array architecture
-* Streaming matrix multiplication engine
-* Quantized neural network acceleration (INT8)
-* AMD-Xilinx Zynq-7000 implementation
-* Hardware/software co-design for embedded AI systems
-* Host-scheduled tiny-ViT on MNIST with MCU-class DS-CNN peer benchmarks
+* 8×8 INT8 systolic GEMM array
+* AXI4-Lite control and AXI DMA tile I/O
+* On-fabric residual, GELU, RMSNorm, and Softmax operations
+* Python host software for board control and inference
+* Hardware/software co-design with speech-command workloads
 
 ---
 
@@ -102,6 +100,7 @@ Highlights include:
 **Platforms**
 
 * ARM Cortex-M
+* Zephyr RTOS
 * Embedded Linux
 * AMD-Xilinx Zynq SoCs
 * FPGA
@@ -109,19 +108,17 @@ Highlights include:
 **Domains**
 
 * Embedded Systems
-* DSP
+* Audio DSP
+* Keyword Spotting & Speech Commands
 * TinyML
 * Edge AI
-* Computer Vision
 * Neural Network Acceleration
 
 ---
 
 ## Mission
 
-NetKit Labs exists to advance open-source Embedded AI by developing practical software infrastructure and hardware acceleration techniques that bridge embedded systems and modern machine learning.
-
-The long-term vision is to provide a complete software-to-silicon ecosystem for efficient AI inference on resource-constrained devices.
+NetKit Labs develops practical open-source infrastructure for embedded systems and efficient AI inference. The focus is on reusable C/C++ libraries, Zephyr firmware, audio processing, and FPGA acceleration, supported by tests, benchmarks, and documented hardware results.
 
 ---
 
