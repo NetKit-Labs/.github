@@ -133,7 +133,7 @@ Highlights include:
 
 **James Lavrenz**
 
-Senior Embedded Software Engineer | C/C++ | Embedded Linux | RTOS | Arm Cortex-M/A | Edge AI
+Embedded Software Engineer | C/C++ | Embedded Linux | RTOS | Arm Cortex-M/A | Edge AI
 
 [Website](https://netkit-labs.github.io/) · [GitHub](https://github.com/jameslavrenz) · [LinkedIn](https://www.linkedin.com/in/jameslavrenz)
 
