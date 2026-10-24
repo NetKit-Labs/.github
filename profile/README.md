@@ -87,7 +87,7 @@ Features include:
 
 ### NPUKit — FPGA Neural Network Accelerator
 
-NPUKit is a SystemVerilog INT8 neural network accelerator for the PYNQ-Z2 (AMD-Xilinx Zynq-7020). An 8×8 output-stationary systolic array performs matrix multiplication, with AXI control, DMA tile transfers, and transformer operations split between FPGA fabric and Python host software. Speech-command experiments explore embedded workloads on top of the accelerator.
+NPUKit is a SystemVerilog INT8 neural network accelerator for the AMD/Xilinx Zynq-7020 SoC. An 8×8 output-stationary systolic array performs matrix multiplication, with AXI control, DMA tile transfers, and transformer operations split between FPGA fabric and Python host software. Speech-command experiments explore embedded workloads on top of the accelerator.
 
 Repository: [NetKit-Labs/npukit](https://github.com/NetKit-Labs/npukit)
 
